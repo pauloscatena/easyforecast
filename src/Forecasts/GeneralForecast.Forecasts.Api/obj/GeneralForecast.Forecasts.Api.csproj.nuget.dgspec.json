@@ -1,0 +1,339 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Api/GeneralForecast.Forecasts.Api.csproj": {}
+  },
+  "projects": {
+    "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Api/GeneralForecast.Forecasts.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Api/GeneralForecast.Forecasts.Api.csproj",
+        "projectName": "GeneralForecast.Forecasts.Api",
+        "projectPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Api/GeneralForecast.Forecasts.Api.csproj",
+        "packagesPath": "/home/paulo/.nuget/packages/",
+        "outputPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/paulo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Application/GeneralForecast.Forecasts.Application.csproj": {
+                "projectPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Application/GeneralForecast.Forecasts.Application.csproj"
+              },
+              "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Infra.Ioc/GeneralForecast.Forecasts.Infra.Ioc.csproj": {
+                "projectPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Infra.Ioc/GeneralForecast.Forecasts.Infra.Ioc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "(, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Application/GeneralForecast.Forecasts.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Application/GeneralForecast.Forecasts.Application.csproj",
+        "projectName": "GeneralForecast.Forecasts.Application",
+        "projectPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Application/GeneralForecast.Forecasts.Application.csproj",
+        "packagesPath": "/home/paulo/.nuget/packages/",
+        "outputPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/paulo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Domain/GeneralForecast.Forecasts.Domain.csproj": {
+                "projectPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Domain/GeneralForecast.Forecasts.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Domain/GeneralForecast.Forecasts.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Domain/GeneralForecast.Forecasts.Domain.csproj",
+        "projectName": "GeneralForecast.Forecasts.Domain",
+        "projectPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Domain/GeneralForecast.Forecasts.Domain.csproj",
+        "packagesPath": "/home/paulo/.nuget/packages/",
+        "outputPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/paulo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Infra.Data/GeneralForecast.Forecasts.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Infra.Data/GeneralForecast.Forecasts.Infra.Data.csproj",
+        "projectName": "GeneralForecast.Forecasts.Infra.Data",
+        "projectPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Infra.Data/GeneralForecast.Forecasts.Infra.Data.csproj",
+        "packagesPath": "/home/paulo/.nuget/packages/",
+        "outputPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/paulo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Domain/GeneralForecast.Forecasts.Domain.csproj": {
+                "projectPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Domain/GeneralForecast.Forecasts.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Infra.Ioc/GeneralForecast.Forecasts.Infra.Ioc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Infra.Ioc/GeneralForecast.Forecasts.Infra.Ioc.csproj",
+        "projectName": "GeneralForecast.Forecasts.Infra.Ioc",
+        "projectPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Infra.Ioc/GeneralForecast.Forecasts.Infra.Ioc.csproj",
+        "packagesPath": "/home/paulo/.nuget/packages/",
+        "outputPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Infra.Ioc/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/paulo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Application/GeneralForecast.Forecasts.Application.csproj": {
+                "projectPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Application/GeneralForecast.Forecasts.Application.csproj"
+              },
+              "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Domain/GeneralForecast.Forecasts.Domain.csproj": {
+                "projectPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Domain/GeneralForecast.Forecasts.Domain.csproj"
+              },
+              "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Infra.Data/GeneralForecast.Forecasts.Infra.Data.csproj": {
+                "projectPath": "/home/paulo/projetos/GeneralForecast/src/Forecasts/GeneralForecast.Forecasts.Infra.Data/GeneralForecast.Forecasts.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
